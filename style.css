@@ -1,0 +1,39 @@
+body {
+  margin: 10%;
+  background-image: url
+}
+
+p {
+  font-family: "times new roman", Arial, sans serif;
+  font-size: 20px;
+  text-align: left;
+  line-height: 120%;
+
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+}
+
+span {
+  color: blue;
+  font-weight: bold;
+}
+
+img {
+  width: 250px;
+  align-content: collapse;
+
+}
+table {
+  border-collapse: collapse;
+  border size: 2px;
+}
+th td {
+
+}
