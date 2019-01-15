@@ -1,48 +1,42 @@
 body {
   margin: 10%;
-  background-image: url
+  padding: 10%;
+  background-color: #f2e7bf;
+  background-image: url(calligraphie.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom, right;
+  background-size: cover;
 }
-
 h1 {
   text-align: center;
   text-decoration: underline;
+  font-size: 250%;
+  font-weight: bold;
 }
-
 h2 {
   text-align: center;
 }
-
 h3 {
   text-align: center;
-
 }
-
 span {
   color: blue;
   font-weight: bold;
 }
-
-
-}
 table {
   border-collapse: collapse;
-  border size: 2px;
+  border: 2px;
 }
-th td {
-
-}
-
-figure {
-
-}
-
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 350px;
+  width: 400px;
   height: auto;
-
+  float: right;
+  margin: 20px;
+  border: 5px solid black;
 }
 p {
   font-size: 18px;
@@ -51,18 +45,87 @@ p {
   text-align: left;
   font-weight: normal;
   line-height: 150%;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
-
 table {
   margin-left: auto;
   margin-right: auto;
   border-spacing: 15px;
+  width: 70%;
+}
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
 }
 th { font-size: 25px;
-
-footer {
+}
+a:link, a:active {
+    color: green;
+    background: white;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    background: white;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    background: white;
+    text-decoration: underline;
+}
+body > div {
+  background-color: rgba(255, 255, 255, 0.7);
 
 }
-
-
+.citation {
+  font-style: italic;
+  font-size: 160%;
+  background-color: #DCDCDC;
+  border: left;
+  border-width: 3px;
+  border-color: #B22222;
+  margin-left: 30px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+span {
+  text-transform: capitalize;
+}
+li {
+  font-size: 18px;
+  font-family: fantasy, sans-serif;
+  text-align: center;
+  line-height: 300%;
+}
+ul {
+  text-align: center;
+}
+.villageois {
+  font-style: italic;
+}
+.fermier {
+  font-style: italic;
+}
+.bien {
+  color: green;
+}
+.mal {
+  color: red;
+}
+.iconbien {
+  background-image: url(/Users/pierre-andredebournonville/Desktop/Learning-Environment/bien.png);
+  background-repeat: no-repeat;
+  padding-right: right;
+}
+.iconmal {
+  background-image: url(/Users/pierre-andredebournonville/Desktop/Learning-Environment/mal.png);
+  background-repeat: no-repeat;
+  padding-right: right;
+}
+.iconchat {
+  background-image: url(/Users/pierre-andredebournonville/Desktop/Learning-Environment/chat.png);
+  background-repeat: no-repeat;
+  padding-right: right;
 }
